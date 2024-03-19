@@ -1,0 +1,19 @@
+.boton {
+    width: 50%; /* Ancho del formulario */
+    margin: 0 auto; /* Centra horizontalmente el formulario */
+    margin-bottom: 20px; /* Espacio entre el formulario y la tabla */
+    position: relative; /* Permite colocar el formulario encima de la tabla */
+    z-index: 1; /* Asegura que el formulario esté por encima de la tabla */
+}
+form {
+    /*solo para centrar el formulario de la pagina */
+    margin: 0 auto;
+    width: 600px;
+    /*para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+.input {
+margin-left: 200px;
+}
